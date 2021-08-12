@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5.7">
+
+    <!--<TextView
+        android:id="@+id/tv_ex_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1.3"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim2"
+        android:text="@string/name"
+        android:textColor="@color/black" />-->
+
+    <TextView
+        android:id="@+id/tv_ex_date"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim2"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_ex_unit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:text="@string/amount"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_ex_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:text="@string/price"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_ex_total"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:text="@string/total"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_ex_paid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tv_ex_due"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/border_edt"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:padding="@dimen/dim5"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/border_edt"
+            android:padding="@dimen/dim5"
+            android:text="@string/select_date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@drawable/border_edt"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:padding="@dimen/dim5"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="@string/note"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp" />
+
+        <EditText
+            android:id="@+id/et_msg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3"
+            android:background="@drawable/border_edt"
+            android:padding="@dimen/dim5"
+            android:maxLength="250"
+            android:maxLines="3"
+            android:hint="@string/add_note"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/dim10"
+        android:layout_marginBottom="@dimen/dim10"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@drawable/border_btn"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_vault"
+        android:layout_marginTop="@dimen/dim5"
+        android:dividerHeight="@dimen/dim2">
+    </ListView>
+
+</LinearLayout>

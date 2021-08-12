@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="@dimen/dim10"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/dim3"
+        android:background="@drawable/border_edt"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/yellow_dark"
+            android:gravity="center"
+            android:padding="@dimen/dim5"
+            android:text="@string/expense_source"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@null"
+            android:hint="@string/name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/dim5" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_gap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp" />
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/dim3"
+        android:background="@drawable/border_edt"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_sub_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/yellow_dark"
+            android:gravity="center"
+            android:padding="@dimen/dim5"
+            android:text="উপ-খাত"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_sub_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@null"
+            android:hint="@string/name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/dim5" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_marginTop="@dimen/dim10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:background="@drawable/border_btn"
+        android:text="@string/save"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+</LinearLayout>

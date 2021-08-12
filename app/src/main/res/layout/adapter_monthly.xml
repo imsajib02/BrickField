@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/tv_ex_expense_way"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tv_ex_amount"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tv_ex_total"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_ex_paid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tv_ex_due"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:padding="@dimen/dim3"
+        android:textColor="@color/black" />
+</LinearLayout>

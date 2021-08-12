@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1.1"
+                android:background="@drawable/border_edt"
+                android:text="@string/date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <EditText
+                android:id="@+id/et_chamber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".8"
+                android:background="@drawable/border_edt"
+                android:hint="@string/chamber"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/border_btn"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:orientation="horizontal"
+            android:weightSum="3.2">
+
+            <TextView
+                android:id="@+id/tv_from_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_edt"
+                android:gravity="center"
+                android:padding="@dimen/dim5"
+                android:text="@string/date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:background="@drawable/border_edt"
+                android:gravity="center"
+                android:padding="@dimen/dim5"
+                android:text="-"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/tv_to_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_edt"
+                android:gravity="center"
+                android:padding="@dimen/dim5"
+                android:text="@string/date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <Button
+                android:id="@+id/btn_show"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@drawable/border_btn"
+                android:text="@string/show"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/dim5"
+                android:text="@string/date"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/dim5"
+                android:text="@string/chamber"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_chamber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:divider="@color/black"
+            android:dividerHeight="1dp">
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/ll_total"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim30"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:orientation="horizontal"
+            android:layout_marginTop="-32dp"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="right|center"
+                android:padding="@dimen/dim5"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimTex14" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@drawable/border_edt"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimTex14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<!-- drawable/subtract.xml --><vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="375dp"
+    android:height="493.16dp"
+    android:viewportWidth="375"
+    android:viewportHeight="493.16">
+    <group>
+
+        <clip-path android:pathData="M0 0H375V493.162H0V0Z" />
+
+        <path
+            android:pathData="M0 0V493.162H375V0"
+            android:fillColor="#0BE6D8" />
+    </group>
+</vector>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/tv_pot_date"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:text="@string/date"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_pot_no"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:text="@string/pot_no"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_pot_line"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:text="@string/line"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_pot_amount"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:text="@string/amount"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_pot_total"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_edt"
+        android:gravity="center"
+        android:text="@string/total"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+</LinearLayout>

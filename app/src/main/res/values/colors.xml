@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da3a2a</color>
+    <color name="colorPrimaryDark">#f54b3e</color>
+    <color name="colorAccent">#e42d3a</color>
+    <color name="lighter_green">#E56200</color>
+    <color name="yellow_dark">#da3a2a</color>
+    <color name="transparent">#00e9cece</color>
+    <color name="transparent1">#ffe9cece</color>
+    <color name="transparent2">#66F37221</color>
+    <color name="button_background">#87d288</color>
+    <color name="button_background2">#00BBC0</color>
+    <color name="button_backgrounds">#00796B</color>
+    <color name="background">#EEEEEE</color>
+    <color name="edittext_background">#F4F4F4</color>
+    <color name="space">#E6E6E6</color>
+    <color name="grayLight">#88888888</color>
+    <color name="btntext">#FFFFFF</color>
+    <color name="actionbar_background">#677381</color>
+    <color name="ash">#50000000</color>
+    <color name="red">#ff0000 </color>
+    <color name="trail">#1E6389</color>
+    <color name="myback">#99bebebe</color>
+    <color name="back">#bebebe</color>
+    <color name="myspace">#90E6E6E6</color>
+
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#004D40</color>
+
+
+    <color name="colorconalyslightblue">#33B7F2</color>
+    <color name="colorconalysdarkblue">#00A5EF</color>
+
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <color name="darkpink">#FF3C8B</color>
+    <color name="black">#000000</color>
+    <color name="blacklight">#484141</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offwhite">#f1f1f1</color>
+    <color name="gray">#888888</color>
+
+    <color name="blueShade1">#3399ff</color>
+    <color name="zerocolor">#00000000</color>
+    <color name="primary">#E43F3F</color>
+    <!--E12929-->
+    <color name="primary_dark">#30a16c</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="primary_blue">#0487C0</color>
+    <color name="accent">#000000</color>
+
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="whiteDem">#F2F2F2</color>
+
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <color name="caldroid_middle_gray">#888</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+
+    <color name="caldroid_333">#333</color>
+    <color name="caldroid_555">#555</color>
+    <color name="caldroid_light_red">#ff7f7f</color>
+    <color name="light_brown">#8B6C3E</color>
+    <color name="dark_brown">#3D2002</color>
+
+
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="progress_colors_dark">
+        <item>#FF00E5FF</item>
+        <item>#ffd81d5a</item>
+        <item>#fff27512</item>
+        <item>#ff63bc34</item>
+    </array>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+    <array name="in_colors_dark">
+        <item>#4B00E5FF</item>
+        <item>#3300E5FF</item>
+        <item>#1900E5FF</item>
+    </array>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d280</color>
+    <color name="event_color_04">#f8b552</color>
+
+    <color name="event_color_011">#59dbe0</color>
+    <color name="event_color_022">#1900E5FF</color>
+    <color name="event_color_033">#87d2f9</color>
+    <color name="event_color_044">#f8b552</color>
+
+    <color name="primary_green">#01796B</color>
+    <color name="secondary_green">#00897B</color>
+    <color name="secondary_blue">#039AE3</color>
+    <color name="primary_white">#F4F4F4</color>
+
+    <color name="a1">#87d288</color>
+    <color name="a2">#59dbe0</color>
+    <color name="a3">#f57f68</color>
+    <color name="a4">#f8b552</color>
+    <color name="a5">#00BBC0</color>
+    <color name="a6">#1E6389</color>
+    <color name="a7">#FF0000</color>
+    <color name="start">#FF6D21</color>
+    <color name="end">#ef3400</color>
+
+    <color name="dash1">#afcea5</color>
+    <color name="dash2">#de99b8</color>
+    <color name="dash3">#7dd4d4</color>
+    <color name="dash4">#a493d4</color>
+    <color name="dash5">#cc9b96</color>
+    <color name="dash6">#81b0e1</color>
+    <color name="dash7">#b6d294</color>
+
+    <color name="purple">#a7e6ac</color>
+
+</resources>

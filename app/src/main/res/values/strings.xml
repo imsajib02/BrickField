@@ -1,0 +1,350 @@
+<resources>
+    <string name="app_name">MRB</string>
+    <string name="title_activity_home"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="daily_income">প্রতিদিনের আয়</string>
+    <string name="daily_income_source">দৈনিক আয়ের হিসাব</string>
+    <string name="daily_expense">প্রতিদিনের খরচ</string>
+    <string name="daily_expense_source">দৈনিক ব্যয়ের হিসাব</string>
+    <string name="due_bill">বকেয়ার হিসাব</string>
+    <string name="total_balance">মোট ব্যালান্স</string>
+    <string name="date">তারিখ</string>
+    <string name="date2">তারিখ: </string>
+    <string name="start_date">শুরু তারিখ</string>
+    <string name="end_date">শেষ তারিখ</string>
+    <string name="total_days">মোট দিন</string>
+    <string name="expense_source">ব্যায়ের খাত</string>
+    <string name="expense_source_or_name">নাম/খাত</string>
+    <string name="name">নাম</string>
+    <string name="unit">ইউনিট</string>
+    <string name="due">বকেয়া</string>
+    <string name="remarks">রিমার্কস</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="price">দর</string>
+    <string name="total">মোট</string>
+    <string name="grand_total">সর্বমোট</string>
+    <string name="taken">গ্রহণ</string>
+    <string name="cash">নগদ</string>
+    <string name="expense">প্রতিদিনের ব্যয়</string>
+    <string name="income">প্রতিদিনের আয়</string>
+    <string name="weekly_bill">সাপ্তাহিক বিল</string>
+    <string name="pot_count">পট গণনা</string>
+    <string name="load_unload">লোড-আনলোড</string>
+    <string name="round">রাউন্ড</string>
+    <string name="select_expense_sector">খাত সিলেক্ট করুন —</string>
+    <string name="select_income_class">শ্রেণী সিলেক্ট করুন —</string>
+    <string name="vehicle_no">গাড়ি নং</string>
+    <string name="class_no">শ্রেণী</string>
+    <string name="paid">অগ্রিম</string>
+    <string name="payment_type">ধরণ</string>
+    <string name="today">আজ</string>
+
+    <string-array name="expense_type">
+        <item>মিল</item>
+        <item>লোড</item>
+        <item>আনলোড</item>
+        <item>ফায়ারিং</item>
+        <item>মাটি মিক্সিং</item>
+        <item>কয়লা</item>
+        <item>মাটি</item>
+        <item>বালু</item>
+        <item>তেল</item>
+        <item>মেশিন পার্টস</item>
+        <item>বেতন</item>
+        <item>ভ্যাট</item>
+        <item>লেবার</item>
+        <item>ভূমি</item>
+        <item>বিবিধ</item>
+        <item>মালিক নেয়া</item>
+    </string-array>
+
+    <string-array name="mill_type">
+        <item>মিল ১</item>
+        <item>মিল ২</item>
+        <item>মিল ৩</item>
+        <item>মিল ৪</item>
+        <item>মিল ৫</item>
+    </string-array>
+    <string-array name="classes">
+        <item>শ্রেণী ১</item>
+        <item>শ্রেণী ২</item>
+        <item>পিকেট</item>
+        <item>আধলা</item>
+        <item>খোয়া</item>
+    </string-array>
+    <string-array name="mill_array">
+        <item>মিল ১</item>
+        <item>মিল ২</item>
+        <item>মিল ৩</item>
+        <item>মিল ৪</item>
+        <item>মিল ৫</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>এডমিন</item>
+    </string-array>
+
+    <string-array name="user_type2">
+        <item>এডমিন</item>
+        <item>ম্যানেজার</item>
+    </string-array>
+
+    <string-array name="mati_array">
+        <item>মাটি মিক্সিং ১</item>
+        <item>মাটি মিক্সিং ২</item>
+        <item>মাটি মিক্সিং ৩</item>
+        <item>মাটি মিক্সিং ৪</item>
+        <item>মাটি মিক্সিং ৫</item>
+    </string-array>
+
+    <string-array name="mati">
+        <item>সাদা মাটি</item>
+        <item>লাল মাটি</item>
+    </string-array>
+    <string-array name="oil_array">
+        <item>ডিজেল</item>
+        <item>মবিল</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
+    <string-array name="koyla_array">
+        <item>কয়লা</item>
+        <item>পরিবহন</item>
+        <item>শ্রমিক</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="line">লাইন</string>
+    <string name="pot_no">পট নং</string>
+    <string name="amount">পরিমাণ</string>
+    <string name="price_error" />
+
+    <string name="show">দেখুন</string>
+    <string name="pot_no_error">পট নং</string>
+    <string name="ring_jaru">রিং ঝাড়ু</string>
+    <string name="total_bill">মোট বিল</string>
+    <string name="total_error" />
+    <string name="unit_error" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="malik_neya">মালিক নেয়া</string>
+    <!--<string name="khoraki">মালিক নেয়া</string>-->
+    <string name="khadli">খাদলি</string>
+    <string name="lakri">লাকড়ি</string>
+    <string name="handle">হ্যান্ডেল</string>
+    <string name="bill_give">বিল দেয়া</string>
+    <string name="paper">কাগজ</string>
+    <string name="date_error">তারিখ</string>
+    <string name="line_error">লাইন</string>
+    <string name="amount_error">পরিমাণ</string>
+    <string name="chamber">চেম্বার</string>
+    <string name="load">লোড</string>
+    <string name="jog_goira">যোগ গইড়া</string>
+    <string name="others">বিবিধ</string>
+    <string name="unload">আনলোড</string>
+    <string name="gate">গেইট</string>
+    <string name="adla_felano">আধলা ফেলানো</string>
+    <string name="salary">বেতন</string>
+    <string name="firing">ফায়ারিং</string>
+    <string name="tea">চা-চিনি</string>
+    <string name="kona">কনা ফেলানো</string>
+    <string name="bonus">রাউন্ড বোনাস</string>
+    <string name="expense_summary">ব্যয়ের হিসাব</string>
+    <string name="income_summary">আয়ের হিসাব</string>
+    <string name="report">রিপোর্ট</string>
+    <string name="joma">জমা</string>
+    <string name="due_expense">ব্যয়ের বকেয়া</string>
+    <string name="due_income">আয়ের বকেয়া</string>
+    <string name="monthly_report">মাসিক রিপোর্ট</string>
+    <string name="yearly_report">বাৎসরিক রিপোর্ট</string>
+    <string name="summery_report">সামারি রিপোর্ট</string>
+    <string name="pay">পে</string>
+    <string name="update">আপডেট</string>
+    <string name="address">ঠিকানা</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="porisod">পরিশোধ</string>
+    <string name="porisodhito">পরিশোধিত</string>
+    <string name="porisod_unit">পরিশোধের পরিমাণ</string>
+    <string name="porisod_unit_price">পরিশোধের দর</string>
+    <string name="remaining_advance">অগ্রিম</string>
+    <string name="taka">টাকা</string>
+    <string name="obosisto">অবশিষ্ট</string>
+    <string name="role_permission">ম্যানেজারের অনুমতি</string>
+    <string name="current_balance">বর্তমান ব্যালান্স</string>
+    <string name="edit_update">এডিট/আপডেট</string>
+
+
+    <string name="khat_type">পরিশোধের খাত</string>
+    <string name="total_due">মোট বকেয়া</string>
+    <string name="income_source">আয়ের খাত</string>
+    <string name="due_payment_success">বকেয়া পরিশোধ সফল হয়েছে</string>
+    <string name="due_payment_failed">বকেয়া পরিশোধ ব্যর্থ হয়েছে</string>
+
+    <string-array name="khat_list">
+        <item>আয়</item>
+        <item>ব্যয়</item>
+    </string-array>
+
+    <string-array name="payment_type_list">
+        <item>নগদ</item>
+        <item>চেক</item>
+    </string-array>
+
+    <string name="advance_add_title">অগ্রিম এন্ট্রির আপডেট</string>
+    <string name="advance_porishodh_title">অগ্রিম পরিশোধ আপডেট</string>
+
+    <string name="print">প্রিন্ট</string>
+
+    <string name="today_income">আজকের আয়</string>
+    <string name="today_expense">আজকের ব্যয়</string>
+    <string name="total_brick_sale">মোট ইট বিক্রয়</string>
+    <string name="total_raw_brick">মোট কাঁচা ইট</string>
+    <string name="today_income_due">আজকের আয় বকেয়া</string>
+    <string name="today_expense_due">আজকের ব্যয় বকেয়া</string>
+    <string name="total_income_due">মোট আয় বকেয়া</string>
+    <string name="total_expense_due">মোট ব্যয় বকেয়া</string>
+    <string name="today_advance">আজকের অগ্রিম</string>
+    <string name="total_coal_purchase">মোট কয়লা ক্রয়</string>
+    <string name="total_round">মোট রাউন্ড</string>
+    <string name="current_round">বর্তমান রাউন্ড</string>
+    <string name="total_expense_details">মোট ব্যয়ের হিসাব</string>
+    <string name="sector_wise_expense_details">ব্যয়ের খাত অনুযায়ী হিসাব</string>
+
+    <string name="customer_wise_income">কাস্টমার অনুযায়ী আয়</string>
+    <string name="monthly_income">মাসিক আয়</string>
+    <string name="yearly_income">বার্ষিক আয়</string>
+    <string name="monthly_expense">মাসিক ব্যয়</string>
+    <string name="yearly_expense">বার্ষিক ব্যয়</string>
+
+    <string name="mill">মিল</string>
+    <string name="coal">কয়লা</string>
+    <string name="summery">সামারি </string>
+
+    <string name="total_unit">মোট পরিমাণ</string>
+    <string name="total_price">মোট দর</string>
+    <string name="total_cash">মোট জমা</string>
+    <string name="poriman">পরিমাণ</string>
+
+    <string name="remaining_days">অবশিষ্ট</string>
+
+    <string name="input">ইনপুট</string>
+    <string name="home">হোম</string>
+
+    <string name="permission_alert_text">স্টোরেজ অনুমতি ছাড়া প্রিন্ট কাজ করবে না। অনুমতি দেবেন?</string>
+    <string name="give_storage_permission_from_setting">সেটিংসে স্টোরেজ অনুমতি মঞ্জুর করুন</string>
+    <string name="delete_sector"> এই খাতটি ডিলিট করলে এই খাতের সাথে যুক্ত সব তথ্য়ও ডিলিট হয়ে যাবে। আপনি কি খাতটি ডিলিট করতে চান?</string>
+    <string name="delete_sub_sector"> এই উপখাতটি ডিলিট করলে এই উপখাতের সাথে যুক্ত সব তথ্য়ও ডিলিট হয়ে যাবে। আপনি কি উপখাতটি ডিলিট করতে চান?</string>
+    <string name="delete_class"> এই শ্রেণীটি ডিলিট করলে এই শ্রেণীর সাথে যুক্ত সব তথ্য়ও ডিলিট হয়ে যাবে। আপনি কি শ্রেণীটি ডিলিট করতে চান?</string>
+    <string name="delete_customer"> এই কাস্টমারটি ডিলিট করলে এই কাস্টমারের সাথে যুক্ত সব তথ্য়ও ডিলিট হয়ে যাবে। আপনি কি কাস্টমারটি ডিলিট করতে চান?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="cancel">বাতিল</string>
+
+    <string name="company_name">B2GSoft</string>
+
+    <string name="user_name">ইউজার নাম</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="login">লগ ইন</string>
+
+    <string name="client_name">নাম</string>
+    <string name="phone">ফোন</string>
+    <string name="contact_no">ফোন নাম্বার</string>
+    <string name="password_hint">পাসওয়ার্ড</string>
+    <string name="role">ভূমিকা</string>
+    <string name="delete">ডিলিট</string>
+
+    <string name="profile">প্রোফাইল</string>
+    <string name="create_account">একাউন্ট তৈরি</string>
+    <string name="role_permission_nav">রোল অনুমতি</string>
+    <string name="reminder">রিমাইন্ডার</string>
+    <string name="support_center">সাপোর্ট সেন্টার</string>
+    <string name="personal_vault">ব্যক্তিগত ভল্ট</string>
+    <string name="contact_users">কন্টাক্ট নাম্বার</string>
+    <string name="logout">লগ আউট</string>
+
+    <string name="select_date">তারিখ নির্বাচন</string>
+    <string name="note">নোট</string>
+    <string name="add_note">নোট লিখুন</string>
+
+    <string name="entry">এন্ট্রি</string>
+
+    <string name="title">শিরোনাম</string>
+    <string name="title_header">শিরোনাম : </string>
+    <string name="message">মেসেজ</string>
+    <string name="message_header">মেসেজ : </string>
+
+    <string name="call">কল</string>
+
+    <string name="malik_joma">মালিক জমা</string>
+
+    <string name="income_text">আয়</string>
+    <string name="expense_text">ব্যয়</string>
+
+    <string name="give_name">নাম দিন</string>
+    <string name="give_date">তারিখ দিন</string>
+    <string name="choose_name">নাম সিলেক্ট করুন</string>
+    <string name="choose_class">শ্রেণী সিলেক্ট করুন</string>
+    <string name="choose_sector">ব্যায়ের খাত সিলেক্ট করুন</string>
+    <string name="choose_sub_sector">ব্যায়ের উপখাত সিলেক্ট করুন</string>
+    <string name="give_vehicle_no">গাড়ি নং দিন</string>
+    <string name="give_chamber">চেম্বার দিন</string>
+    <string name="give_unit">পরিমাণ দিন</string>
+    <string name="give_price">দর দিন</string>
+    <string name="give_joma">জমা দিন</string>
+    <string name="give_phone">ফোন দিন</string>
+    <string name="give_password">পাসওয়ার্ড দিন</string>
+    <string name="give_title">শিরোনাম দিন</string>
+    <string name="give_total">মোট দিন</string>
+    <string name="give_porishodh">পরিশোধ দিন</string>
+    <string name="give_pot_no">পট নং দিন</string>
+    <string name="give_line_no">লাইন দিন</string>
+    <string name="give_round_name">রাউন্ড নাম দিন</string>
+    <string name="give_start_date">শুরু তারিখ দিন</string>
+    <string name="give_end_date">শেষ তারিখ দিন</string>
+    <string name="give_income_class_name">শ্রেণী এর নাম দিন</string>
+    <string name="give_expense_sector_name">ব্যায়ের খাত এর নাম দিন</string>
+    <string name="give_expense_sub_sector_name">ব্যায়ের উপখাত এর নাম দিন</string>
+    <string name="give_message">মেসেজ লিখুন</string>
+    <string name="invalid_phone">ফোন সঠিক নয়</string>
+    <string name="invalid_name">নাম সঠিক নয়</string>
+    <string name="same_name_exists">এই নামটি ইতিমধ্য়ে আছে</string>
+    <string name="same_class_exists">এই শ্রেণী ইতিমধ্য়ে আছে</string>
+    <string name="same_sector_exists">এই খাত ইতিমধ্য়ে আছে</string>
+    <string name="same_sub_sector_exists">এই উপখাত ইতিমধ্য়ে আছে</string>
+    <string name="choose_correct_name">সঠিক নাম সিলেক্ট করুন</string>
+
+    <string name="successfully_saved">সফলভাবে সংরক্ষণ হয়েছে</string>
+    <string name="failed_to_save">সংরক্ষণ ব্যর্থ হয়েছে</string>
+    <string name="successfully_deleted_user">ইউজার সফলভাবে ডিলিট হয়েছে</string>
+    <string name="failed_to_delete_user">ইউজার ডিলিট ব্যর্থ হয়েছে</string>
+    <string name="successfully_deleted_sector">ব্যায়ের খাত সফলভাবে ডিলিট হয়েছে</string>
+    <string name="successfully_deleted_sub_sector">ব্যায়ের উপখাত সফলভাবে ডিলিট হয়েছে</string>
+    <string name="failed_to_delete_sector">ব্যায়ের খাত ডিলিট ব্যর্থ হয়েছে</string>
+    <string name="failed_to_delete_sub_sector">ব্যায়ের উপখাত ডিলিট ব্যর্থ হয়েছে</string>
+    <string name="successfully_deleted_class">শ্রেণী সফলভাবে ডিলিট হয়েছে</string>
+    <string name="failed_to_delete_class">শ্রেণী ডিলিট ব্যর্থ হয়েছে</string>
+    <string name="successfully_deleted_customer">কাস্টমার সফলভাবে ডিলিট হয়েছে</string>
+    <string name="failed_to_delete_customer">কাস্টমার ডিলিট ব্যর্থ হয়েছে</string>
+    <string name="successfully_updated">সফলভাবে আপডেট হয়েছে</string>
+    <string name="failed_to_update">আপডেট ব্যর্থ হয়েছে</string>
+    <string name="failed_to_get_data">ডেটা পেতে ব্যর্থ হয়েছে</string>
+    <string name="failed_to_login">লগ ইন ব্যর্থ হয়েছে</string>
+    <string name="general_error_message">একটি ত্রুটি ঘটেছে। আবার চেষ্টা করুন।</string>
+
+    <string name="network_error">নেটওয়ার্ক ত্রুটি</string>
+    <string name="server_error">সার্ভার ত্রুটি</string>
+    <string name="volley_error">অজানা ত্রুটি</string>
+
+    <string name="please_wait">অপেক্ষা করুন …</string>
+
+    <string name="put_different_name">আলাদা নাম দিন</string>
+
+</resources>

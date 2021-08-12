@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dashboard_layout"
+    android:orientation="vertical"
+    tools:context="com.b2gsoft.mrb.Fragment.Home.DashboardFragment">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ll_daily_income"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/daily_income_source"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_daily_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/caldroid_holo_blue_light"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ll_daily_expense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/daily_expense_source"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_daily_expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/caldroid_holo_blue_light"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ll_daily_due_income"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/due_income"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_daily_due_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ll_daily_due_expense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/due_expense"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_daily_due_expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/current_balance"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_current_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/purple"
+                    android:gravity="left"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/total_balance"
+                    android:textSize="@dimen/_11sdp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+
+                <TextView
+                    android:id="@+id/tv_daily_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:text="555555555"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10sdp" />
+
+</LinearLayout>
